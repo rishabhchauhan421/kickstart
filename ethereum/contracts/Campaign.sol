@@ -29,7 +29,7 @@ contract Campaign{
     address public manager;
     mapping(address => bool) public approvers;
     uint public approversCount;
-    mapping(uint => Request) requests;
+    mapping(uint => Request) public requests;
     
     
 
